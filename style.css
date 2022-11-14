@@ -303,7 +303,8 @@ html,body{
     width: 78%;
     height: 30vh;
     margin-left: 11%;
-    display: flex
+    display: flex;
+    margin-top:50px;
 }
 #leftbtm{
     width: 34%;
