@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    background-color: #F6F6EE;
+}
+
+#nav{
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    margin:0 3vw;
+    align-items: center;
+}
+#nav h1{
+    font-family: "Gilroy";
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 540;
+    margin-left: 40px;
+}
+#nav span{
+    color: black;
+    font-weight: 700;
+}
+#links{
+ display: flex;
+ justify-content: space-around;
+ gap: 35px;
+ margin-right: 40px;
+}
+#links a{
+    text-decoration: none;
+    color: #000;
+    font-family: "Playfair display";
+    font-weight: 500;
+    font-size: 18px;
+}
+#links a:hover{
+    color: rgb(151, 148, 148);
+    z-index: 999;
+    border-bottom: 1px solid rgb(151, 148, 148);;
+}
+#text{
+    margin-top: 40px;
+    width:100%;
+    text-align: center;
+}
+#text h1{
+    font-family: "Playfair display";
+    font-weight: 500;
+    font-size: 45px;
+}
+#text p{
+    padding-top: 10px;
+    width: 28%; 
+    margin: 0 auto;
+    font-family: "Gilroy";
+    font-size: 15px;
+    font-weight: 500;
+}
+#text button{
+    margin-top: 28px;
+    border-radius: 30px;
+    padding: 10px 22px;
+    background-color: black;
+    color: whitesmoke;
+    font-family: "Gilroy";
+    font-weight: 500;
+    margin-bottom: 70px;
+    
+}
+#text button:hover{
+    background-color: transparent;
+    color: black;
+}
+
+#center{
+    width: 100%;
+    
+}
+#center img{
+    width: 100%;
+}
+#first{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-top: 80px;
+    
+}
+#left{
+    width: 50%;
+    height: 100vh;
+    
+    position: relative;
+}
+#left #photo2{
+    width: 100%;
+    height: 100%;
+    background-image: url(zach-on-rock.png);
+    z-index: 9999;
+    background-position: center;
+    background-size: cover;
+     position: absolute;}
+
+#left #top{
+    top: -9.5vw;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#top #photo{
+    background-image: url(blue-dots.gif );
+    position: absolute;
+    background-position: top;
+    background-size: cover;
+    height: 60%;
+    width: 100%;
+}
+#top2 #photo3{
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#top2 #photo3{
+    background-image: url(yellow-dots-triangle.png);
+    z-index: 99999;
+    position: absolute;
+    background-position: top;
+    background-size: cover;
+    height: 50%;
+    width: 25%;
+}
+    
+#left svg{
+    width: 189px;
+    height: 261px;
+    position: absolute;
+    top: 55%;
+    right: 8%;
+    opacity: 0.5;
+    z-index: 99999;
+}
+#second{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+#bottom{
+    top: 23%;
+    width: 60%;
+    height: 75%;
+    left: 0%;
+    position: absolute;
+}
+#photobird{
+    width: 100%;
+    height: 73%;
+    background-image: url(bird.png);
+    background-position: center;
+    background-size: cover;
+}
+ 
+#side{
+    top: 50%;
+    left: 85%;
+    width: 15%;
+    height: 50%;
+    position: absolute;
+}
+#photo5{
+    background-image: url(side.png);
+    width: 100%;
+    height:100%;
+    background-size: cover;
+    background-position: left;
+}
+#first #right{
+    width: 50%;
+    height: 100vh;
+    position: relative;
+}
+#right #textright1{
+    width: 57%;
+    height: 70%;
+    top: 25%;
+    left: 8%;
+    position: absolute;
+}
+#textright1 h1{
+    font-size: 40px;
+    font-weight: 450;
+    font-family: "Gilroy";
+    margin-bottom: 18px;
+    color: rgb(33, 33, 33);
+}
+#textright1 h2{
+    font-size: 20px;
+    font-weight: 450;
+    font-family: "Gilroy";
+    margin-bottom: 18px;
+    color: rgb(33, 33, 33);
+}
+#textright1 h3{
+    font-size: 18px;
+    font-weight: 450;
+    font-family: "Gilroy";
+    margin-bottom: 2px;
+    color: rgb(33, 33, 33);
+}
+#textright1 h4{
+    font-size: 20px;
+    font-weight: 450;
+    font-family: "Gilroy";
+    margin-bottom: 18px;
+    color: rgb(33, 33, 33);
+}
+#textright1 button{
+    margin-top: 28px;
+    border-radius: 30px;
+    padding: 10px 22px;
+    background-color: black;
+    color: whitesmoke;
+    font-family: "Gilroy";
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+#textright1 button:hover{
+    background-color: transparent;
+    color: black;
+}
+#third{
+    width: 100%;
+    height: 100vh;
+}
+#photofront{
+    height: 90%;
+    width: 78%;
+    background-image: url(video-placeholder.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 11%;
+    position: relative;
+}
+#photofront button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 30px;
+    padding: 12px 27px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: black;
+    font-family: "Gilroy";
+    font-weight: 500;
+    border-color: transparent;
+    display: flex;
+    gap: 5px;
+}
+#photofront button:hover{
+    background-color: black;
+    color: white;
+}
+#photofront button i{
+    border: 2px solid black;
+    border-radius: 50%;
+    color: black;
+    
+}
+#photofront button i:hover{
+    color: white;
+    border: 2px solid black;
+    border-radius: 50%;
+
+}
+#fourth{
+    width: 100%;
+    height: 70vh;
+}
+#border{
+    width: 85%;
+    height: 43%;
+    background-image: url(border.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+#textbottom{
+    width: 78%;
+    height: 30vh;
+    margin-left: 11%;
+    display: flex
+}
+#leftbtm{
+    width: 34%;
+    height: 100%;
+}
+#leftbtm h1{
+    font-size: 20px;
+    color: black;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: Gilroy;
+}
+#leftbtm span{
+    color: black;
+    font-weight: 700;
+}
+#leftbtm p{
+    width: 80%;
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Gilroy";
+    color: rgb(34, 32, 32);
+}
+
+#rightbtm{
+    width: 34%;
+    height: 100%;
+    padding-left: 50px;
+    
+}
+#centerbtm{
+    width: 30%;
+    height: 100%;
+    padding-left: 100px;
+}
+
+#centerbtm #rlinks a{
+    margin-top: 8px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Gilroy";
+    color: rgb(34, 32, 32);
+    text-decoration: none;
+    line-height: 20px;
+}
+#centerbtm #rlinks a:hover{
+    border-bottom: 1px solid rgb(125, 123, 123);
+    color: rgb(150, 147, 147);
+}
+#centerbtm h1{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Gilroy";
+    color: rgb(34, 32, 32);
+    margin-bottom: 5px;
+}
+#rightbtm h1{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Gilroy";
+    color: rgb(34, 32, 32);
+    margin-bottom: 5px;
+}
+#rightbtm a{
+    margin-top: 8px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Gilroy";
+    color: rgb(34, 32, 32);
+    line-height: 20px;
+}
+#rightbtm h3{
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Gilroy";
+    color: rgb(34, 32, 32);
+    line-height: 20px;
+}
+
+#rightbtm a:-webkit-any-link {
+     cursor: pointer;
+}
